@@ -1,0 +1,44 @@
+
+# makefile for tsf-f and tsf-bc, this is using the Borland MAKE command
+# so i cant say that it will work with anyother, but should..
+
+CC         = gcc
+CFLAGS     = -fforce-mem -fforce-addr -fcombine-regs -finline-functions -O
+DFLAGS     = -D_DOS32BIT -D_INT_32BIT=1 -DDJGCC
+INSTALLDIR = c:\u\bin
+
+all: tsf-f.exe tsf-bc.exe
+
+.c.o:
+  $(CC) $(CFLAGS) $(DFLAGS) -c $*.c
+
+.o.exe:
+  $(CC) $(CFLAGS) $(DFLAGS) bcrypt.o $*.o -o $*
+  strip $*
+  copy /q /b $(GCCBIN)\stub.exe+$* $*.exe
+  del /q $*
+
+install: all
+         copy /q tsf-f.exe $(INSTALLDIR)
+         copy /q tsf-bc.exe $(INSTALLDIR)
+
+tsf-bc.exe: bcrypt.o tsf-bc.o
+
+tsf-f.exe: bcrypt.o tsf-f.o
+
+tsf-bc.o: tsf-bc.c
+
+tsf-f.o: tsf-f.c
+
+bcrypt.o: bcrypt.h bcrypt.c
+
+tar: all
+     tar cf tsfx tsf-bc.c tsf-f.c bcrypt.c bcrypt.h makefile tsf-bc.exe tsf-f.exe readme
+     compress tsfx
+
+zip: all
+     pkzip tsfx tsf-bc.c tsf-f.c bcrypt.c bcrypt.h makefile tsf-bc.exe tsf-f.exe readme
+
+uuencode: tar
+          uuencode tsfx.Z
+

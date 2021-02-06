@@ -1,0 +1,38 @@
+
+// Sydney Telephone Exchange Scan                                Sequence #007
+   컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴                                컴컴컴컴컴컴�
+
+Template scan  : (02)-218-XXXX [XXXX = 0000 -> 9999]
+Completion date: June 04 1992.
+DTE Equip used : Scitec 2400bps
+Operations Mgr : rok@dp1
+WARNING        : INTERNAL AHA/TSF VERSION, NUMBERS WITH ** WERE NOT
+                 RELEASED IN THE PUBLIC VERSION
+
+컴컴컴컴 컴컴   컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+Number   Speed  Data captured at connect
+컴컴컴컴 컴컴   컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+218-0091 2400
+218-2299 2400
+218-2383 2400
+218-3531 2400
+218-4520 2400
+218-4740 2400
+218-4829 2400   tcqm                          A058978M
+218-4866 2400
+218-4887 2400
+218-4906 2400   password>>
+218-4907 2400
+218-4961 2400   scants1 login:
+218-6024 2400 * cpnx session layer
+              * services menu
+218-6288 2400 * drvsvr1
+              * Welcome to SCO System V/386
+              * login:
+218-6703 2400   hi
+218-7253 2400
+218-7621 2400
+218-8316 2400
+218-8364 2400
+-------- ----   -----------------------------------------------------------
+

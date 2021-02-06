@@ -1,0 +1,335 @@
+
+// Sydney Telephone Exchange Scan                                Sequence #008
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ                                ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Template scan  : (02)-906-XXXX [XXXX = 0000 -> 9999]
+Completion date: Wed  17. Jun 1992  12:54:52
+DTE Equip used : Netcomm 1234E MNP modem
+Notes          : Some of these numbers [obviously sensitive] have
+                 already been disconnected.
+Operations Mgr : rok@dp1
+WARNING        : INTERNAL AHA/TSF VERSION, NUMBERS WITH * WERE NOT
+                 RELEASED IN THE PUBLIC VERSION
+
+ÄÄÄÄÄÄÄÄ ÄÄÄÄ   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Number   Speed  Data captured at connect
+ÄÄÄÄÄÄÄÄ ÄÄÄÄ   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+906-0178 1200   AC-EMS601 K2-DB K.2  -PL K23B1 CUSTOMER: ATLAB   -SITE:  ARTA
+                PLEASE ENTER PASSWORD >
+906-0330 2400
+906-0366 2400
+906-0367 2400
+906-1069 2400
+906-1076 2400   JMD Ross Insurance Brokers Pty Ltd
+                login:
+906-1078 2400
+906-1109 2400   S E V E N T Y   S E V E N   S Y S T E M S
+                Seventy!login:
+906-1160 2400   S.O.G.!login:
+906-1172 2400
+906-1173 2400   MegaPAC_J PAD PORT 18
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-1202 2400
+906-1216 2400   Blue Chip BBS
+                This is a Public BBS set up for Clients of BLUE CHIP COMPUTERS
+906-1230 2400
+906-1244 2400   MegaPAC_J PAD PORT 20
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-1295 2400   INCORRECT KEY, PLEASE SELECT ANOTHER
+                DISPLAY COMMAND :
+906-1301 2400   Solution Facilities Pty. Ltd.
+                Terminal      T01LF820
+                Pegasus II is ACTIVE
+906-1501 2400   ~?~?~?~?~
+906-1510 2400   #
+906-1587 2400 * kenrob!login:
+906-1628 2400
+906-1640 2400   login:
+906-1673 2400
+906-1692 2400   #
+906-1749 2400
+906-1768 2400
+906-1797 2400   Welcome to SCO System V/386
+                hutsn1!login:
+906-1826 2400   MegaPAC_J PAD PORT 19
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-1868 2400
+906-2056 2400   Welcome to SCO System V/386
+                SST!login:
+906-2064 2400   #
+906-2120 2400
+906-2181 2400   Vista Computer Systems
+                Vax/VMS
+906-2231 2400
+906-2274 2400
+906-2279 2400
+906-2335 2400   #
+906-2369 2400
+906-2414 2400   SmartModem Security
+                Enter Name    :
+906-2438 2400
+906-2490 2400   Ux`x>xUøàø>ð
+906-2543 2400   MegaPAC_J PAD PORT 12
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-2591 2400   MegaPAC_J PAD PORT 07
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-2604 2400   MegaPAC_J PAD PORT 11
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-2605 2400   bs260!login:
+906-2621 2400   ~?~?~?~?~?~?~?~?~?
+906-2723 2400   @`x>Ààø>ÿ
+906-2746 2400   5ph
+906-2756 2400   Logon please
+                User-Id?
+                --------------------------------------------------------------
+                TIC/RPT CORPORATE COMPUTER                    PICK Environment
+                Port 16   System Serial Number 71011             Version 7.6.4
+                --------------------------------------------------------------
+906-2780 2400   SmartModem Security
+                Enter Name    :
+906-2786 2400   Logon please
+                User-Id?
+                --------------------------------------------------------------
+                TIC/RPT CORPORATE COMPUTER                    PICK Environment
+                Port 40   System Serial Number 71011             Version 7.6.4
+                --------------------------------------------------------------
+906-2826 2400   ~?~?~?~?~?~?~?~?~?
+906-3101 2400
+906-3110 2400
+906-3149 2400   works386!login:
+906-3195 2400
+906-3226 2400   #
+906-3314 2400   AC-EMS601 K2-DB K.2  -PL K23A  CUSTOMER: TELECOM -SITE:  DATAB
+                PLEASE ENTER PASSWORD >
+906-3347 2400
+906-3348 2400
+906-3363 2400
+906-3384 2400   Timed Out, Hanging Up...
+906-3397 2400   era login:
+906-3401 2400
+906-3411 2400
+906-3420 2400
+
+906-3477 2400
+906-3501 2400
+906-3632 2400
+906-3705 2400   login:
+906-3836 2400
+906-3852 2400   @
+906-3883 2400   Please press <Enter>...
+906-3915 2400   distech3
+                login:
+906-3978 2400   @
+906-4060 2400   login:
+                Dialup Password:
+906-4076 2400   PASSWORD?
+906-4082 2400 * kenarbil!login:
+906-4151 2400   USER
+906-4153 2400   SPX/400 Series v2.311
+                Enter username>
+                Local>
+906-4254 2400
+906-4263 2400 * login:
+906-4273 2400
+906-4274 2400   *ERR
+906-4442 2400   Welcome to AlphaMed Link (3:711/413) Using Binkley /
+                Maximus 2.01
+906-4469 2400
+906-4548 2400
+906-4580 2400   Welcome to SCO System V/386
+                timesys!login:
+906-4588 2400   MegaPAC_J PAD PORT 06
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-4594 2400   Welcome to Osborne Computers Australia's M88K system.
+                login:
+906-4637 2400
+906-4708 2400   login:
+906-4741 2400   DYNIX(R) V3.0.12  (domino)
+                login:
+906-4763 2400
+906-4779 2400
+906-4783 2400
+906-4865 2400
+906-4994 2400   Timed Out, Hanging Up...
+906-5004 2400   Username:
+
+906-5200 2400 * fline2!login:
+906-5245 2400
+906-5280 2400
+906-5463 2400   Modem:
+906-5473 2400   Pyramid Technology dualPort OSx (sphinx)
+                login:
+906-5558 2400   steady2!login:
+906-5573 2400   NetComm Security Modem
+                Enter Name.......
+906-5603 2400
+906-5640 2400   ~?~?~?~?~?~?~?~
+906-5642 2400 * kcs
+              * DG/UX Operating System Release 4.32
+              * login:
+906-5664 2400
+906-5687 2400   USER
+906-5775 2400
+906-5853 2400
+906-5924 2400   GANDALF: CITEC'S PUBLIC ACCESS SYSTEM
+                422010100000000 GANDALF: Connected
+                W A R N I N G  -  U N A U T H O R I S E D    U S E
+906-5931 2400
+906-5958 2400 * Welcome to Bull Open Software
+              * B.O.S. Release 01.01.16
+              * Login:
+906-6009 2400
+906-6032 2400   obd login:
+906-6062 2400   obd login:
+906-6109 2400   Enter password:
+906-6200 2400   Welcome to SCO System V/386
+                admin!login:
+906-6404 2400   PASSWORD?
+906-6429 2400   grund1!login:
+906-6430 2400   Please press <Enter>...
+906-6456 2400
+906-6476 2400
+906-6597 2400
+906-6603 2400
+906-6712 2400   OVL111 44 IDLE
+906-6718 2400
+906-6745 2400   WHAT IS YOUR TERMINAL?
+906-6746 2400   WHAT IS YOUR TERMINAL?
+906-6747 2400
+906-6752 2400   Welcome to the INTERACTIVE Systems Corporation
+                System name: unix02
+906-6754 2400   Welcome to the INTERACTIVE Systems Corporation
+                System name: unix03
+906-6757 2400   Please press <Enter>...
+906-6837 2400   SmartModem Security
+                Enter Name    :
+906-6891 2400   USER
+906-6940 2400
+906-6941 2400
+906-6942 2400
+906-6944 2400   WHAT IS YOUR TERMINAL?
+906-6945 2400
+906-6949 2400
+906-7025 2400   Pyramid Technology dualPort OSx (sphinx)
+                login:
+906-7056 2400   Logged on: Thursday, 06-04-92  at 02:06
+                RemoteAccess 1.10
+                Please enter your full name:
+906-7075 2400
+906-7093 2400 * Welcome to Bull Open Software
+              * B.O.S. Release 01.01.16
+              * Login:
+906-7110 2400
+906-7158 2400
+906-7248 2400   ACCESS_SERVER_PROD      AND     Svell, Inc.
+906-7249 2400   ACCESS_SERVER_PROD      AND     Svell, Inc.
+906-7276 2400   Welcome to the Micro Support Systems Private BBS
+906-7289 2400 * Welcome to Bull Open Software
+              * B.O.S. Release 01.01.16
+              * Login:
+906-7338 2400
+906-7385 2400   USER
+906-7459 2400   H I G H  Q  R E S O L U T I O N S  P T Y  L T D
+                POSTSCRIPT BUREAU SERVICES
+906-7464 2400
+906-7488 2400   E@@@IAA@
+906-7489 2400   E@@@IAA@
+906-7495 2400
+906-7533 2400
+906-7544 2400   Ààø>àð`
+906-7580 2400 * Welcome to SCO System V/386
+              * grey!login:
+906-7602 2400   GANDALF: CITEC'S PUBLIC ACCESS SYSTEM
+                422010000000000 GANDALF: Connected
+                W A R N I N G  -  U N A U T H O R I S E D    U S E
+906-7632 2400   GANDALF: CITEC'S PUBLIC ACCESS SYSTEM
+                422010000000000 GANDALF: Connected
+                W A R N I N G  -  U N A U T H O R I S E D    U S E
+906-7654 2400   GANDALF: CITEC'S PUBLIC ACCESS SYSTEM
+                422010000000000 GANDALF: Connected
+                W A R N I N G  -  U N A U T H O R I S E D    U S E
+906-7694 2400   USER
+906-7753 2400
+906-7789 2400
+906-7871 1275   Welcome To      T H E  P C  D I R E C T  B B S
+906-7917 2400
+906-8002 2400   Welcome to SCO System V/386
+                video8!login:
+906-8138 2400
+906-8160 2400   PLESSEY CDSS
+                REV: P  3. 1. 6               CONFIG. EXPORT   818  ISS 1
+                OSL PLEASE
+906-8178 2400   Local>
+906-8199 2400   login:
+                Dialup Password:
+906-8265 2400
+906-8268 2400   Name
+906-8322 2400   GANDALF: CITEC'S PUBLIC ACCESS SYSTEM
+                422010000000000 GANDALF: Connected
+                W A R N I N G  -  U N A U T H O R I S E D    U S E
+906-8387 2400   MegaPAC_J PAD PORT 20
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-8514 2400   Welcome to Lettercraft's Bureau Services, Now via modem.
+                Please enter your name:
+906-8538 2400
+906-8545 2400   Welcome to the VSI Promark dial-up access system..
+                RemoteAccess 1.01
+906-8554 2400   PLESSEY CDSS
+                REV: P  3. 1. 6               CONFIG. EXPORT   818  ISS 1
+                OSL PLEASE
+906-8569 2400   MegaPAC_J PAD PORT 08
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-8597 2400   MegaPAC_J PAD PORT 09
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-8678 2400   MegaPAC_J PAD PORT 10
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-8697 2400   MegaPAC_J PAD PORT 13
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-8710 2400   MegaPAC_J PAD PORT 14
+                *
+                COM
+                WELCOME TO THE CSA NETWORK
+                ENTER YOUR PASSWORD
+906-8783 2400
+906-8798 2400
+906-8890 2400   ~?~?~?~?~?~?~?~?~?~?
+906-8892 2400   ~?~?~?~?~?~?~?~?~?~?
+906-8893 2400   ?~?~?~?~?~?~?~?~?~?~
+ÄÄÄÄÄÄÄÄ ÄÄÄÄ   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+

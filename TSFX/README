@@ -1,0 +1,42 @@
+
+This is my TSF with DD's faster Bcrypt, also itll compile under DJGCC with
+the following makefile and stuff..
+
+Note: You will need 'go32' (32bit mode launcher), distributed with the
+      DJGCC release, and its associated peripherals (ie VGA driver and
+      387 emulator), with correctly setup environment variables, ie:
+
+                GCCBIN  = g:\dj\bin
+                GCCLIB  = g:\dj\lib
+                GCCINC  = g:\dj\include
+                GO32    = ansi driver g:\dj\drivers\vga.grd gw 1024 gh 768
+                          emu g:\dj\emu387\emu387
+                GO32TMP = g:\tmp
+
+IE: If you dont have a 386 AND you dont have go32 then the executables
+    distributed here WILL NOT WORK, you can go and compile with turboC
+    or something but then you will probably get stuck with the 64k
+    seg limits
+
+Bugz: none (i hope :-\), well none that i can see, youll get a warning on
+      compilation about the signal(..) in line 870 (thereabouts) and djgcc
+      doesnt like this at all. hence ctrl-c is not trapped, I couldnt fix
+      this straight away (something screwy with djgcc), I tried defining
+      the signal handler as void, nup, just doesnt like it, who cares
+      anyway..
+
+Ohh well, if you have any questions just ask. as in the original TSF
+release, this program and its side products were created to make my
+activities easier , if you dont like em, or prefer something else, then
+nick off. Constructive criticism and ideas welcomed, send the rest to
+255.255.255.255. You can find me on IRC , my BBS or other places if
+you look hard enuf..
+
+And TSF was original conceived in December91/January92, after KC9 was
+released but before I had my hands on it. (despite this , there are a lot
+of design similarities)
+
+RokStar - march 1992
+/ TSF Systems Operator, Software Development. /
+/ dp1.com Online Information Systems. /
+

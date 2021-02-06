@@ -1,0 +1,165 @@
+
+:Id   TSFd Password Cracker
+:Rel  1.10
+:Auth rokstar
+:Desc unix/ibm passwd cracker, nothing special about it.
+
+firstly, i started writing this in october 91, i left it for a while
+and then in december started again from scratch with new code, during
+december i worked on it, but in january was away from the net for
+a while, coming back i found i needed no use for passwd crackers anymore
+and hence havent even TOUCHED the tsf code since (2 months. its march 1st,
+1:09 pm as i am sitting here), i dont have any inspiration to do any
+work on it, if there is considerable interest i may do some more work,
+else this is the first and last release. read all of this readme file
+before you continue.
+
+this file is Zipped, not tar'd, why? i dunno :)
+firstly thanks to TriZap for testing the various versions i wrote,
+thankx dude :)
+
+subdirectories in this zip archive.
+
+tsf-bc :        tsf bcrypt version. this was developed and written
+                on an aix (3.7 i think), so it should compile anywhere
+                if it compiles on aix :). testing showed it works fine
+                HOWEVER on getting lards new keytab setup, i added it
+                into dd's bcrypt code, i havent TESTED THIS YET.
+                (so shoot me, ive had no need to try it). this version
+                cracks word by word (in accordance with bcrypts
+                need for table rewrites on new words)
+
+tsf-ufc:        tsf ufc version. again developed on aix. works fine, also
+                note that i did some hacking to ufc to try to speed it
+                up somewhat, it works fine. cracks user by user.
+
+tsf-ibm:        tsf ibm version with bcrypt, compiled on a 386-33 under
+                messydos 5.0 and borlando's c++ 2.0. (ie turbo c)
+
+tsf-f:          fast tsf that checks only
+                password= '[0-9!]login|login[0-9!]|login|nigol' :)
+
+misc:           various progs to help with tsfd.
+
+                ut-getl.c, extracts specific information from
+                           the output files.
+                ut-dict.c, simple dictionary preprocessing
+                ut-gpwd.c, src to get passwds using getpwent
+                ut-rcp.c , src to snarf pwds .
+
+when i started to write tsf i had one goal in mind, it was NOT user
+flexibility, its main purpose was to be compiled somewhere and left
+to run without needing to be watched/checked, hence all the filenames
+and such forth are compiled in at run time.
+
+output file:    the output file is in a format like:
+
+        line starts with      meaning
+        S;                     status, information reporting
+        I;                     invalid acnts
+        C;                     cracked acnts
+        U;                     uncracked acnts
+
+so you can grep off only waht you need, also the full passwd field
+is returned with the passwd.
+
+example output:
+S; TSFd(tm) V1.00UX-ufc[PR] (c) rokK 1991    ; copyright notice
+S; UFC engine self-test succeeded.           ; checks this EVERY time,
+                                               to make sure the crypt
+                                               engine is ALWAYS working
+S; read_passwds('passwd'): got 255 accounts. ; # pwds read in
+S; added 255 unique login names to wordlist. ; added login fields to wlist
+S; read_words('words'): got 119806 words.    ; how manu it read
+S; sorted 255 password records by salts.     ; sorting..
+S; 
+S; --[Started pass: preprocess.]----------    ; checking for blank/invalid
+S; 
+S; 
+S; --[Ended: preprocess. got 0 blank, 0 invalid acnts]---------- ; none
+                                                                   found.
+S;
+S; --[Started: crack]----------              ; started crack phase
+S; 
+C; rita2    - ******:6pEUXWyAWa8t.:350:80:**************:*********:/bin/csh
+.
+.       ; dumps of cracked accounts
+C; gopher   - *****:zK04vqQLoCSMg:589:24:******************:********:/bin/csh
+S; 
+S; --[Ended: crack. AC:10. C:566668488 T:1335544 = 424.30 C/S]----------
+                        ; output statistics , accounts, compares,
+                          time and computed cps.
+S; 
+S; dumping uncracked accounts:          ; you can undef this option..
+S; 
+U; *****:.AOyiDGlhxtIM:695:102:***************************:********:/bin/csh
+.
+.
+U; ****:zUFRa0WG7d3nQ:73:25:*******:*******:/bin/csh
+S;
+S; tsf_die!(X 0): Normal End of run termination.
+S; total compares: 566668488. total time: 1335544 secs. total cracked: 10.
+S; computed overall efficiency was 424.30 crypts/sec.
+
+        ; and finally end of run statistics
+
+
+both unix versions are designed to load EVERYTHING internally so that
+you can remove the file(s) as soon as excution is started, some of the
+logging proceedures may look dodgy but i was going to add in support
+for dumping of output files to socket and mail, ie you can leave the
+program running on a site and never come back, hence the need for
+buffering output and then dumping it in one go.
+
+I also wrote a quick network cracking version, this was tested by
+TriZap and works (so he says :) but i hadnt had time to check it out
+(sum nice network of 80 sparc ELC's i was going to test it on too :))
+
+-----
+thats about it i guess. i hate writing docs, please remember the
+following:
+
+-- my source code/program(s) are not user friendly, they need some
+   level of C knowledge to be able to compile, modify them, if your
+   a beginner, go use something else.
+
+-- there are various defines you can modify, they should be
+   self explanatory.
+
+-- due to university and more 'important' programming tasks that i
+   am spending my time on, i dont see that ill ever do anything more
+   with this, if there is a LOT of interest i may change my mind.
+
+-- password cracking is a essentially a dead end, if all you know
+   how to do is crack pwds, please learn something else and help
+   us all.
+
+-- if you dont like my code, or think its lame, then fuck off and
+   go play tanks. It gets me by, it works for me (in large :) and
+   i couldnt give a shit what anyone else thinks [usefull criticism
+   is nice, but not juvenile shit that seems to occur on irc lately]
+
+-- credits must not be forgotten for bcrypt (VIz and DD) and
+   ufc (m.gladd), since without these nothing would be possible.
+
+-- oh yah, restoring can be performed by specifiing the last word
+   on the commandline, OR with the ufc version it will be done
+   by specifying the PASSWORD or anypart of it, since ufc cracks
+   by users. with tsf-ibm,tsf-bc, you can specify a PASS to restore
+   at (eg 'tsf-bc -(p|s) thisword')
+
+-- disclaimer, its not my fault and i didnt do it. if you buy dbase
+   and use it to store drug information is dbase to blame for
+   supplying the program?...
+
+== i can be reach on irc (#hack), my own bbs (dp1. +61-private),
+   lutzifer and various usa bbses i call..
+
+   'aussie's do it better'.
+   rokstar. [aka rokk, rok, rokhead, rokz, roks]
+
+           'everything ive ever done, everything i ever do,
+            everyplace ive ever been, everwhere im going to,
+                                        its a sin... '
+
+

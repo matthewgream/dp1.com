@@ -1,0 +1,104 @@
+
+
+                                  T S F P
+                     [The Second Field Pre-Encryption]
+                    rokstar (c) 1992 all rights reserved
+
+    " you may use this code anywhere at anytime except in or as part of
+    any other product that is being distributed or sold. Modified copies
+          of this product may not be made publicly distributable "
+
+                          -=-------------------=-
+
+Current revisions:              Pre-Encryption Generator - 1.60
+                                Runtime Executable       - 2.00
+
+ So far results are good, note that ive only tested it on sparcs with
+/bin/cc and at home with messydos and gcc 32bit mode, the code is of
+course a bit messy at the moment (story of my life ehehehhe), but you
+should get it, us engineers aint much for doc files, hehe. so figure
+out what u can from this mess:
+
+
+ The programs
+--------------
+
+Precrypt:
+
+ The precrypter precrypts each word 4096 times, but only keeping the first
+8 bits (unsigned char) of each passwd, this means that for each word you
+have, mul by 4096 for approx disk space, anyway pre.c will tell you how
+much space and approx time will be needed, approx time will change depend-
+ing on how u load up the machine. pre.c will generate the 64 files needed,
+each file having 64 subsalt chunks. the environment variable PREDIR MUST
+be set for either pre.c or runp.c, it tells them which directory has
+the precrypted datafiles etc. the sort routines i use are bubble sorts
+(yeah lame, maybe ill put a quick or insertion in)
+
+Example: wordfile 320k, 40,000 words generated a 165meg lot of datafiles,
+with an approx time of 2500 minutes (using UFC-2 on sparc, @ approx
+1000 crypts/sec)
+
+Runp:
+
+ The runtime executable takes two args , the name of word files to use
+(so you can create multiple precypted wordfiles etc) and the passwd
+filename. it will then sort the passwd file, rejecting invalid and blank
+accounts (YES IT REJECTS THEM, so remember to grep :: before hand!),
+and then it checks each acnt, also checking login=passwd if compiled
+that way. a full set of statistics is dumped to you..
+
+Example: a 900k passwd file (10,000 acnts) was run with the above wordfile,
+the runtime took 40minutes and resulted in some 240 acnts, IF you had
+used a 'normal' crack prog like KC or CRACK or something, you would have
+waited 112hours (yeah thats right, 40 mins vers 112 hours!)
+
+
+ How it works
+--------------
+
+ Really simple, basically the first 8 bits are stored, when cracking the
+first 8 bits of the passwd are checked against all the entries in the
+corresponding salt block, then a REAL crypt is provided to check if
+its the real result. Theoretically this should reduce the number of REAL
+crypts by 256, so for a 10000 acnts and 40000 words your looking at
+40000 / 256 = 156 crypts per accnt as opposed to 10000 normally, its quite
+a reduction, however i seem to be getting 215 approx, must be a glitch
+in my calculations, hmmm weird. anyway, your definitely better off having
+several SMALL wordfiles (ie maybe break the 300k up into 3 x 100k) since
+youll get less probability hits, their will be no difference in disk
+storage, just means youll have to run the prog 3 times. runp.c has some
+diskcaching optimization to do readaheads, this mainly makes a differnce
+on bad disk io machines (theres the messydos word again ehhehe), most
+unix boxes (unless your using some shit remote NFS mount) will have
+no probs with disk io.
+ Some of the code is a bit messy, i will clean it up, and i still have
+some more ideas to do with the code, if you have any, just mention
+them and ill see what i can do. termx has constructed some server/client
+code that ill be looking at in the following days and setup, this will
+allow you do 'submit' a pwdf from anywhere on the net, ill write a mail
+based daemon as well, which has the advantages of queue management.
+
+
+ Lastly
+--------
+
+ Dont distribute this code, ive given it to you since i obviously trust
+your ability to keep it to yourself, if you do distribute it, it simply
+means you dont get a copy next time! (sorry to be such a bastard, but
+i dont wanna have MeGAWaNNaBE! and company trying to run it on every
+site around, plus i expect you to know enuf C to be able to compile
+it without having to ask me 'it says 'cant find #include file', what
+do i do????' etc)
+
+ Ive used the generic ufc-2 patchlevel (march92), umm other than
+stripping crypt.c and crypt_util.c of #ifdefs, its the same, in other
+words, pre.c and runp.c just call fcrypt(), so if your using a sparc,
+take advantage of the asm srcs tht are available, and make a .a lib
+for fast linking..
+
+                haveusfunus.
+                        ltr...rokz
+             [can be located on IRC, among other places]
+
+

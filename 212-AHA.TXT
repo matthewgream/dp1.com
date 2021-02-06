@@ -1,0 +1,92 @@
+
+// Sydney Telephone Exchange Scan                                Sequence #009
+   컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴                                컴컴컴컴컴컴�
+
+Template scan  : (02)-212-XXXX [XXXX = 0000 -> 9999]
+Completion date: Wed  17. Jun 1992  12:54:52
+DTE Equip used : Scitec 2400bps
+Notes          : Connect speed was not captured.
+Operations Mgr : rok@dp1
+WARNING        : INTERNAL AHA/TSF VERSION, NUMBERS WITH ** WERE NOT
+                 RELEASED IN THE PUBLIC VERSION
+
+컴컴컴컴      컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+Number        Data captured at connect
+컴컴컴컴      컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+212-1063
+212-1136
+212-1273      xenix386!login:
+212-1275
+212-1349
+212-1425      USER
+212-1442      D$$
+212-1451
+212-1486
+212-1490
+212-1495      ff`<~~<x`
+212-1623
+212-1786
+212-1791      Welcome to VAX/VMS V5.5
+              Username:
+212-1792      Welcome to VAX/VMS V5.5
+              Username:
+212-1806      PRESENTING AUSTRALIA AT SEA 04 07
+              Login:
+212-1867
+212-2158      UNIVERSITY CO-OP BOOKSHOP
+              LOGON PLEASE  :
+212-2423
+212-2434
+212-2438      *** Wang VS Logon *** Workstation
+212-2481      Enter Name    :
+212-2482      Enter Name    :
+212-2483      Enter Name    :
+212-2486      Enter Name    :
+212-2489
+212-2524
+212-2554
+212-2557
+212-2565
+212-2578
+212-2716
+212-3044
+212-3113
+212-3217      PASSWORD 1.
+212-3298
+212-3491
+212-3523
+212-3621
+212-3733
+212-3961
+212-3976
+212-3991
+212-3995
+212-4022
+212-4086
+212-4170
+212-4192 **  login:
+212-4272
+212-5069      USER
+212-5072 **   WELCOME TO UNILINC
+         **   User Access Verification
+         **   Password:
+212-5256
+212-5508
+212-5599
+212-5629
+212-5835
+212-5913      ~
+212-6056      Apple Computer, Inc. A/UX
+              login:
+212-6065
+212-6068
+212-6086      QuickMail(tm) Copyright 1988-92 CE Software, Inc.
+              Name:
+212-6113 **   You may now enter Net/One commands
+         **   >
+212-6196      ~
+212-6439      AAAAAAA
+212-6695      |||
+              Enter password:
+컴컴컴컴      컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
