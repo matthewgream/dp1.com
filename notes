@@ -1,0 +1,13 @@
+https://textfiles.habd.as/bbs/UA/ua.12.html
+http://www.phrack.org/archives/issues/45/5.txt
+
+
+http://index-of.es/Hack/Hack_Proofing_Your_Network.pdf
+Esniff is probably one of the first sniffers that surfaced within the hacker
+underground. Written by a hacker named “rokstar,” it functioned only on Sun
+Microsystems’ SunOS (now outdated) operating systems. Esniff supports the
+Telnet, FTP, and rlogin protocols. It provides basic functionality and does not
+support a comprehensive list of protocols as those found in newer sniffers
+such as dsniff and sniffit. This sniffer was first publicly published in Phrack
+magazine, which can be obtained from:
+http://phrack.infonexus.com/search.phtml?view&article=p45-5
