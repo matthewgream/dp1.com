@@ -26,3 +26,5 @@ TSFX.ZIP -- older, separate, version of TSF with only bcrypt and fast
 
 - - - 
 
+http://phrack.org/issues/45/5.html
+/* Esniff.c */
